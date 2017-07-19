@@ -5,4 +5,4 @@ services:
     build: ./
     volumes:
       - ~/workspace/RSB4760_advantech/:/RSB4760_advantech/
-      - ~/workapace/ccache/:/ccache/
+      - ~/workspace/ccache/:/ccache/
