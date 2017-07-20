@@ -4,5 +4,5 @@ services:
   androidrom_01:
     build: ./
     volumes:
-      - ./RSB4760_advantech/:/RSB4760_advantech/
-      - ./ccache/:/ccache/
+      - ../RSB4760_advantech/:/RSB4760_advantech/
+      - ../ccache/:/ccache/
