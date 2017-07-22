@@ -11,4 +11,4 @@ ENV CCACHE_DIR /ccache
 
 WORKDIR /RSB4760_advantech
 
-CMD ["/usr/local/bin/dumb-init", "--", "/RSB4760_advantech/apq8016_build.sh"]
+CMD ["/usr/local/bin/dumb-init", "--", "/RSB4760_advantech/apq8016_build.sh", ";", "chmod", "-R", "777", "/RSB4760_advantech/out"]
