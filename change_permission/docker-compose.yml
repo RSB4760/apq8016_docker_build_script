@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  change_premission:
+    build: ./
+    volumes:
+      - ../../RSB4760_advantech/:/RSB4760_advantech/
+      - ../../ccache/:/ccache/
