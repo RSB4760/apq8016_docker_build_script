@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-  change_premission:
+  change_permission:
     build: ./
     volumes:
       - ../../RSB4760_advantech/:/RSB4760_advantech/
